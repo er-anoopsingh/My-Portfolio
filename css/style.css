@@ -1,0 +1,153 @@
+
+html,
+body{
+  background-color: #F3F3F3;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+
+}
+h2{
+  font-size: 1.5em;
+}
+
+/**************Navbar**************/
+.navbar{
+    background-color: #fff;
+    padding: 20px;
+    border: 0;
+}
+.navbar a:hover{
+  color: #041F28 !important;
+  font-weight: bold;
+}
+
+/**************Profile left side**************/
+.upper{
+  margin-top: 100px;
+}
+#left-side{
+  background-color: #C0E3E7;
+  margin-right: 8.33%; /*to create a gutter between profile(left-side) and main content(right-side)*/
+  padding-top: 40px;
+  padding-right: 0; /*to remove predefined padding in bootstrap*/
+  padding-left: 0;
+  box-shadow: -2px 2px 10px #899793;
+}
+
+#left-side img{
+  margin-right: auto; /*to horizontally center the image*/
+  margin-left: auto; /*to horizontally center the image*/
+}
+
+/*download cv section*/
+.white-back{
+  background-color: #fff;
+  width: 100%;
+  padding-top:  40px;
+  padding-bottom:  40px;
+}
+
+.down{
+  background-color: #041F28;
+  color: #fff;
+  line-height: 30px;
+  border: 2px solid transparent;
+  width: 75%;
+  border-radius: 35px;
+}
+
+.down:hover{
+  color: #fff;
+  font-size: 1em;
+  letter-spacing: 1.5px;
+  background-color: #0b5a74;
+}
+.down:focus{
+  outline:0;
+}
+
+
+/**************Main content right side**************/
+#right-side{
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: -2px 2px 10px #899793;
+}
+
+#right-side h2{
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+
+/**************Time Line**************/
+.time-line{
+  border-left: 1px solid #041F28;
+  margin-left: 100px;
+  padding-left: 0px;
+  margin-bottom: 40px;
+}
+
+.time-line li{
+  list-style-image: url('../img/bullet.png');
+  padding-left: 20px;
+}
+
+h4{
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+    position: relative;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #041F28;
+}
+
+.thumbnail:hover .overlay{
+  opacity: 0.8;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.caption{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff !important;
+  text-align: center;
+  background-color: #041F28;
+  width: 100%;
+}
+
+.git{
+  margin-top: 40px;
+  text-align: center;
+}
+
+#work, #portfolio, #about{
+  margin-top: -100px;
+  padding-top: 100px;
+}
