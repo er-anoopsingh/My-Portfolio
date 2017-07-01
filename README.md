@@ -1,11 +1,11 @@
 # My Portfolio
 A portfolio website created in bootstrap
 
-# Getting Started
+## Getting Started
 Copy the whole project and run index.html.
 
-# Prerequisites
+## Prerequisites
 Nothing
 
-# Authors
+## Authors
 Anoop Singh
