@@ -9,3 +9,6 @@ Nothing
 
 ## Authors
 Anoop Singh
+
+## Misc.
+You can also view the live website here https://er-anoopsingh.github.io/My-Portfolio/#
