@@ -40,7 +40,7 @@ h2{
   margin-left: auto; /*to horizontally center the image*/
 }
 
-/*download cv section*/
+/*Linked In section*/
 .white-back{
   background-color: #fff;
   width: 100%;
@@ -51,21 +51,33 @@ h2{
 .down{
   background-color: #041F28;
   color: #fff;
-  line-height: 30px;
   border: 2px solid transparent;
   width: 75%;
   border-radius: 35px;
+  padding: 5px 10px;
 }
 
 .down:hover{
   color: #fff;
   font-size: 1em;
   letter-spacing: 1.5px;
+  text-decoration: none;
   background-color: #0b5a74;
+}
+.down:active{
+  background-color: #041F28;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid transparent;
+  width: 75%;
+  border-radius: 35px;
+  padding: 5px 10px;
 }
 .down:focus{
   outline:0;
-}
+  text-decoration: none;
+  color: #fff;
+  }
 
 
 /**************Main content right side**************/
